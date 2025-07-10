@@ -1,0 +1,47 @@
+* {
+    font-family: Halvetica, Verdana, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+p,
+ul {
+    text-align: justify;
+}
+
+.no-dots {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.no-dots li,
+.home {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 8px 16px;
+}
+
+.no-dots li {
+    margin: 8px;
+}
+
+.home {
+    margin: 8px 0;
+}
